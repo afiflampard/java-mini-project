@@ -24,6 +24,18 @@ public class User {
 
     private String password;
 
+    @Column(name = "code")
+    private String code;
+
+    @Column(name = "address")
+    private String address;
+
+    @Column(name = "identity_number")
+    private String identityNumber;
+
+    @Column(name = "phone_number")
+    private String phoneNumber;
+
     @Enumerated(EnumType.STRING)
     private Role role;
 }
