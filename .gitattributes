@@ -1,0 +1,12 @@
+/mvnw text eol=lf
+*.cmd text eol=crlf
+# Scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Source code
+*.java text eol=lf
+*.yml text eol=lf
+*.properties text eol=lf
+*.gitignore text eol=lf

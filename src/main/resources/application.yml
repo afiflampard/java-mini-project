@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: boilerplate-api
+
+  profiles:
+    active: dev
+
+  jackson:
+    serialization:
+      indent-output: true
+
+server:
+  port: 8081
